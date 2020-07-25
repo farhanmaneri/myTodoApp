@@ -12,17 +12,23 @@ body {
     
 } */
 
-.main{
+ /* .main{
     margin-top: 50px;
     display: flex;
     justify-content: center;
     
+}  */
+
+h1{
+    color: red !important;
+    font-weight: bold !important;
 }
 
 .col{
     display: flex;
     justify-content: center;
     justify-self: start;
+    
  }
 
  li{
@@ -31,6 +37,9 @@ body {
      font-weight : bold;
  }
 
+.row{
+    margin-top: 20px;
+}
 
 
 
@@ -44,6 +53,8 @@ body {
 border: 2px solid black;
 margin: 5px;
 height: 30px;
+font-size: large !important;
+font-weight: bold;
 
 }
 
@@ -57,3 +68,10 @@ height: 30px;
     font-size: 20px;
 }
   */
+footer{
+    display: flex;
+    justify-content: end !important;
+}
+h3 {
+    color:blue !important;
+}
